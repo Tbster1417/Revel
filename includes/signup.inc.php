@@ -2,12 +2,12 @@
 
 if(!isset($_POST['sumbit'])){
 
-    $dbServername = "localhost";
-    $dbuserNamename = "root";
-    $dbpassword = "";
-    $dbname = "revelLoginSystem";
+    $dbServername = "sql3.freemysqlhosting.net";
+    $dbuserNamename = "sql3221382";
+    $dbpassword = "GCmUk2rZ7Q";
+    $dbname = "sql3221382";
 
-    $mysqli = new mysqli("localhost", "root", "", "revelLoginSystem");
+    $mysqli = new mysqli("sql3.freemysqlhosting.net", "sql3221382", "GCmUk2rZ7Q", "sql3221382");
     $conn = mysqli_connect($dbServername, $dbuserNamename, $dbpassword, $dbname);
 
     $first = mysqli_real_escape_string($conn, $_POST['first']);
