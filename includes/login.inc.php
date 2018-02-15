@@ -4,12 +4,12 @@ session_start();
 
 if(isset($_POST['login'])){
 
-    $dbServername = "localhost";
-    $dbuserNamename = "root";
-    $dbpassword = "";
-    $dbname = "revelLoginSystem";
+    $dbServername = "sql3.freemysqlhosting.net";
+    $dbuserNamename = "sql3221382";
+    $dbpassword = "GCmUk2rZ7Q";
+    $dbname = "sql3221382";
 
-    $mysqli = new mysqli("localhost", "root", "", "revelLoginSystem");
+    $mysqli = new mysqli("sql3.freemysqlhosting.net", "sql3221382", "GCmUk2rZ7Q", "sql3221382");
     $conn = mysqli_connect($dbServername, $dbuserNamename, $dbpassword, $dbname);
     
     $uid = mysqli_real_escape_string($conn, $_POST['username']);
