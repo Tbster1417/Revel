@@ -11,7 +11,7 @@
 	<nav>
 		<div class="main-wrapper">
 			<ul>
-				<li><a href="index.php">Home</a></li>	
+				<li><a href="index.html">Home</a></li>	
 			</ul>
 		</div>	
 	</nav>	
